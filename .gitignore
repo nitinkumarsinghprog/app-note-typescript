@@ -7,18 +7,47 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Production Build
 dist
 dist-ssr
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local files
 *.local
 
-# Editor directories and files
+# Docker
+.dockerignore
+
+# IDE / Editor
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# OS Files
 .DS_Store
+Thumbs.db
+
+# Visual Studio
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+
+# Swap files
 *.sw?
+*.swp
+
+# Coverage Reports
+coverage
+
+# TypeScript
+*.tsbuildinfo
