@@ -10,7 +10,7 @@ function Header({ darkMode, toggleTheme }: HeaderProps) {
         {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
       </button>
 
-      <h1>My Notes App</h1>
+      <h1>My First Project in TypeScript</h1>
     </>
   );
 }
