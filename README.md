@@ -9,11 +9,11 @@
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 The application will run on:
 
 ```bash
-http://localhost:3000
+http://localhost:5173
 ```
