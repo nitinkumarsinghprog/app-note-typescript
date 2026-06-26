@@ -112,3 +112,96 @@ button {
   margin-bottom: 20px;
   font-size: 18px;
 }
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.note-card textarea {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 15px;
+}
+
+/* Button group inside note card */
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Edit textarea inside note card */
+
+.note-card textarea {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  background: #dc3545;
+}
+
+.delete-btn:hover {
+  background: #bb2d3b;
+}
+
+/* Edit Button */
+
+.edit-btn {
+  background: #ffc107;
+  color: #000;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+/* Save Button */
+
+.save-btn {
+  background: #198754;
+}
+
+.save-btn:hover {
+  background: #157347;
+}
+
+/* Cancel Button */
+
+.cancel-btn {
+  background: #6c757d;
+}
+
+.cancel-btn:hover {
+  background: #5c636a;
+}
+
+/* Light Mode Buttons */
+
+.light .add-btn {
+  background: #0d6efd;
+}
+
+.light .theme-toggle {
+  background: #212529;
+}
+
+/* Dark Mode Buttons */
+
+.dark .add-btn {
+  background: #fd7e14;
+}
+
+.dark .theme-toggle {
+  background: #ffc107;
+  color: black;
+}

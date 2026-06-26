@@ -37,6 +37,16 @@ function App() {
     setNotes(notes.filter((note) => note.id !== id));
   };
 
+  const updateNote = (id: number, updatedText: string) => {
+    setNotes(
+      notes.map((note) =>
+        note.id === id
+          ? { ...note, text: updatedText }
+          : note
+      )
+    );
+  };
+
   const filteredNotes = notes.filter((note) =>
     note.text.toLowerCase().includes(search.toLowerCase())
   );
@@ -68,6 +78,7 @@ function App() {
         <NoteList
           notes={filteredNotes}
           deleteNote={deleteNote}
+          updateNote={updateNote}
         />
       </div>
     </div>
