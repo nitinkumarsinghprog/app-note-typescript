@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import NoteForm from "./components/NoteForm";
 import NoteList from "./components/NoteList";
 
-import type { Note } from "../types/Note";
+import type { Note } from "./types/Note";
 
 function App() {
   const [notes, setNotes] = useState<Note[]>(() => {
